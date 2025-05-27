@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звіт з WEB-технологій | FlixMarket</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Animated background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </div>
+
+    <div class="page">
+        <!-- Hero Section -->
+        <header class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="title-group">
+                        <div class="badge">
+                            <i class="fas fa-graduation-cap"></i>
+                            Звітний документ
+                        </div>
+                        <h1 class="main-title">
+                            <span class="highlight">WEB-орієнтовані технології</span>
+                            <span class="subtitle">Основи frontend та backend розробок</span>
+                        </h1>
+                        <div class="authors">
+                            <div class="author-card">
+                                <div class="author-info">
+                                    <h3>Федонюк Роман</h3>
+                                    <span class="group">ІО-24</span>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img class="foto" src="public/assets/my_photo.jpg" alt="Фото авторів">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <div class="nav-tabs">
+                    <input type="radio" id="one" name="accordion_group" class="radio" checked>
+                    <input type="radio" id="two" name="accordion_group" class="radio">
+                    <input type="radio" id="three" name="accordion_group" class="radio">
+                    <input type="radio" id="four" name="accordion_group" class="radio">
+                    <input type="radio" id="five" name="accordion_group" class="radio">
+                    <input type="radio" id="six" name="accordion_group" class="radio">
+                    <input type="radio" id="seven" name="accordion_group" class="radio">
+                    <input type="radio" id="eight" name="accordion_group" class="radio">
+
+                    <div class="content-wrapper">
+                        <!-- Navigation Sidebar -->
+                        <nav class="sidebar">
+                            <div class="nav-header">
+                                <h3>Зміст звіту</h3>
+                            </div>
+                            <div class="tab-list">
+                                <label for="one" class="tab-item" id="one-tab">
+                                    <i class="fas fa-rocket"></i>
+                                    <span>Тема проєкту</span>
+                                </label>
+                                <label for="two" class="tab-item" id="two-tab">
+                                    <i class="fas fa-layer-group"></i>
+                                    <span>Стек технологій</span>
+                                </label>
+                                <label for="three" class="tab-item" id="three-tab">
+                                    <i class="fas fa-list-check"></i>
+                                    <span>Вимоги</span>
+                                </label>
+                                <label for="four" class="tab-item" id="four-tab">
+                                    <i class="fas fa-desktop"></i>
+                                    <span>Скріншоти</span>
+                                </label>
+                                <label for="five" class="tab-item" id="five-tab">
+                                    <i class="fas fa-palette"></i>
+                                    <span>Frontend</span>
+                                </label>
+                                <label for="six" class="tab-item" id="six-tab">
+                                    <i class="fas fa-server"></i>
+                                    <span>Backend</span>
+                                </label>
+                                <label for="seven" class="tab-item" id="seven-tab">
+                                    <i class="fas fa-database"></i>
+                                    <span>База даних</span>
+                                </label>
+                                <label for="eight" class="tab-item" id="eight-tab">
+                                    <i class="fas fa-flag-checkered"></i>
+                                    <span>Висновки</span>
+                                </label>
+                            </div>
+                        </nav>
+
+                        <!-- Content Area -->
+                        <div class="content-area">
+                            <!-- Tab Content 1: Project Theme -->
+                            <div class="tab-content" id="one-tab-content">
+                                <div class="content-card">
+                                    <div class="card-header">
+                                        <h2 class="section-title">
+                                            <i class="fas fa-play-circle"></i>
+                                            FlixMarket - Платформа для підписок на стрімінгові сервіси
+                                        </h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="project-description">
+                                            <p class="lead">
+                                                FlixMarket - це сучасна веб-платформа для продажу та управління підписками на популярні 
+                                                стрімінгові сервіси. Платформа забезпечує зручний інтерфейс для покупки підписок з 
+                                                підтримкою різних валют, локалізації та безпечних методів оплати через Monobank.
+                                            </p>
+                                            <div class="target-audience">
+                                                <h3>Цільова аудиторія</h3>
+                                                <p>Користувачі, які бажають придбати підписки на стрімінгові сервіси за вигідними цінами з можливістю оплати в різних валютах та регіонах.</p>
+                                            </div>
+                                        </div>
+                                        <div class="project-links">
+                                            <h3>Посилання на проєкт</h3>
+                                            <div class="links-grid">
+                                                <a href="https://github.com/romchhh/flix_market" class="link-card github" target="_blank">
+                                                    <i class="fab fa-github"></i>
+                                                    <span>GitHub Repository</span>
+                                                </a>
+                                                <a href="https://easyplayy.com/ua" class="link-card website" target="_blank">
+                                                    <i class="fas fa-globe"></i>
+                                                    <span>Production</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content 2: Tech Stack -->
+                            <div class="tab-content" id="two-tab-content">
+                                <div class="content-card">
+                                    <div class="card-header">
+                                        <h2 class="section-title">
+                                            <i class="fas fa-layer-group"></i>
+                                            Стек технологій
+                                        </h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="tech-stack">
+                                            <div class="tech-category">
+                                                <h3><i class="fas fa-laptop-code"></i> Платформа для розробки</h3>
+                                                <div class="tech-items">
+                                                    <div class="tech-item">
+                                                        <i class="fab fa-react"></i>
+                                                        <span>Next.js 15</span>
+                                                    </div>
+                                                    <div class="tech-item">
+                                                        <i class="fab fa-react"></i>
+                                                        <span>React 19</span>
+                                                    </div>
+                                                    <div class="tech-item">
+                                                        <i class="fas fa-code"></i>
+                                                        <span>TypeScript</span>
+                                                    </div>
+                                                    <div class="tech-item">
+                                                        <i class="fas fa-paint-brush"></i>
+                                                        <span>Tailwind CSS</span>
+                                                    </div>
+                                                </div>
+                                                <p>Next.js 15 з React 19 використовується як повноцінний full-stack фреймворк. TypeScript забезпечує типізацію та кращу розробку. Tailwind CSS використовується для швидкого створення адаптивного та сучасного дизайну.</p>
+                                            </div>
+                                            
+                                            <div class="tech-category">
+                                                <h3><i class="fas fa-database"></i> База даних</h3>
+                                                <div class="tech-items">
+                                                    <div class="tech-item">
+                                                        <i class="fas fa-database"></i>
+                                                        <span>SQLite</span>
+                                                    </div>
+                                                    <div class="tech-item">
+                                                        <i class="fas fa-cogs"></i>
+                                                        <span>TypeORM</span>
+                                                    </div>
+                                                </div>
+                                                <p>SQLite використовується як легка реляційна база даних для розробки та тестування. TypeORM забезпечує ORM функціональність з підтримкою TypeScript та декораторів для роботи з сутностями.</p>
+                                            </div>
+                                            
+                                            <div class="tech-category">
+                                                <h3><i class="fas fa-credit-card"></i> Система оплати</h3>
+                                                <div class="tech-items">
+                                                    <div class="tech-item">
+                                                        <i class="fas fa-university"></i>
+                                                        <span>Monobank API</span>
+                                                    </div>
+                                                    <div class="tech-item">
+                                                        <i class="fas fa-shield-alt"></i>
+                                                        <span>NextAuth.js</span>
+                                                    </div>
+                                                    <div class="tech-item">
+                                                        <i class="fas fa-globe"></i>
+                                                        <span>GeoIP</span>
+                                                    </div>
+                                                </div>
+                                                <p>Monobank API інтегровано для безпечної обробки платежів. NextAuth.js забезпечує аутентифікацію користувачів. GeoIP використовується для автоматичного визначення регіону та валюти.</p>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="business-logic">
+                                            <h3><i class="fas fa-cogs"></i> Бізнес-логіка FlixMarket</h3>
+                                            <div class="logic-flow">
+                                                <div class="flow-item">
+                                                    <div class="flow-icon">
+                                                        <i class="fas fa-user-plus"></i>
+                                                    </div>
+                                                    <div class="flow-content">
+                                                        <h4>Реєстрація користувача</h4>
+                                                        <p>Реєстрація → Валідація → Створення профілю → Автентифікація</p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="flow-item">
+                                                    <div class="flow-icon">
+                                                        <i class="fas fa-play-circle"></i>
+                                                    </div>
+                                                    <div class="flow-content">
+                                                        <h4>Вибір підписки</h4>
+                                                        <p>Перегляд каталогу → Вибір сервісу → Вибір тарифу → Локалізація цін</p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="flow-item">
+                                                    <div class="flow-icon">
+                                                        <i class="fas fa-credit-card"></i>
+                                                    </div>
+                                                    <div class="flow-content">
+                                                        <h4>Процес оплати</h4>
+                                                        <p>Створення інвойсу → Monobank API → Webhook → Підтвердження</p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="flow-item">
+                                                    <div class="flow-icon">
+                                                        <i class="fas fa-cog"></i>
+                                                    </div>
+                                                    <div class="flow-content">
+                                                        <h4>Адміністрування</h4>
+                                                        <p>Управління підписками → Модерація → Аналітика → Звіти</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content 3: Requirements -->
+                            <div class="tab-content" id="three-tab-content">
+                                <div class="content-card">
+                                    <div class="card-header">
+                                        <h2 class="section-title">
+                                            <i class="fas fa-list-check"></i>
+                                            Вимоги до програмного забезпечення
+                                        </h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="requirements-section">
+                                            <h3><i class="fas fa-cogs"></i> Функціональні характеристики</h3>
+                                            <p>Програмне забезпечення повинно забезпечувати виконання наступних основних функцій:</p>
+                                            
+                                            <div class="requirement-item">
+                                                <h4>Користувацький інтерфейс</h4>
+                                                <ul>
+                                                    <li>Функція аутентифікації та реєстрації користувачів</li>
+                                                    <li>Функція перегляду каталогу підписок</li>
+                                                    <li>Функція вибору тарифних планів (1, 3, 6, 12 місяців)</li>
+                                                    <li>Функція автоматичного визначення регіону та валюти</li>
+                                                    <li>Функція безпечної оплати через Monobank</li>
+                                                    <li>Функція перегляду історії покупок</li>
+                                                    <li>Мультимовна підтримка (EN, DE, UA)</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="requirement-item">
+                                                <h4>Адміністративні функції</h4>
+                                                <ul>
+                                                    <li>Функція управління каталогом підписок</li>
+                                                    <li>Функція налаштування цін для різних регіонів</li>
+                                                    <li>Функція перегляду статистики продажів</li>
+                                                    <li>Функція управління користувачами</li>
+                                                    <li>Функція модерації контенту</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="requirements-section">
+                                            <h3><i class="fas fa-shield-alt"></i> Нефункціональні характеристики</h3>
+                                            
+                                            <div class="requirement-category">
+                                                <h4>Для користувача:</h4>
+                                                <ul>
+                                                    <li>Можливість перегляду доступних підписок з детальною інформацією</li>
+                                                    <li>Можливість вибору тривалості підписки та автоматичного розрахунку ціни</li>
+                                                    <li>Можливість безпечної оплати з підтримкою різних валют</li>
+                                                    <li>Можливість перегляду статусу платежів та історії покупок</li>
+                                                    <li>Доступ до особистого кабінету з управлінням підписками</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="requirement-category">
+                                                <h4>Для адміністратора системи:</h4>
+                                                <ul>
+                                                    <li>Управління каталогом підписок та їх характеристиками</li>
+                                                    <li>Налаштування цін для різних регіонів та валют</li>
+                                                    <li>Моніторинг платежів та фінансової звітності</li>
+                                                    <li>Управління користувачами та їх правами доступу</li>
+                                                    <li>Перегляд аналітики продажів та статистики</li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="requirement-category">
+                                                <h4>Технічні вимоги:</h4>
+                                                <ul>
+                                                    <li>Адаптивний дизайн для різних типів пристроїв</li>
+                                                    <li>Безпечна інтеграція з платіжними системами (Monobank API)</li>
+                                                    <li>Валідація даних при реєстрації та обробці платежів</li>
+                                                    <li>Автоматичне визначення геолокації та валюти</li>
+                                                    <li>Мультимовна підтримка з динамічним перемиканням</li>
+                                                    <li>Цілісність фінансових даних та захист персональної інформації</li>
+                                                    <li>Webhook обробка для підтвердження платежів</li>
+                                                    <li>SEO оптимізація та швидкість завантаження</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content 4: Screenshots -->
+                            <div class="tab-content" id="four-tab-content">
+                                <div class="content-card">
+                                    <div class="card-header">
+                                        <h2 class="section-title">
+                                            <i class="fas fa-desktop"></i>
+                                            Скріншоти застосунку
+                                        </h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="screenshot-gallery">
+                                            <div class="screenshot-item">
+                                                <h4>Головна сторінка - Каталог підписок</h4>
+                                                <p>Інтерфейс для перегляду доступних стрімінгових сервісів та їх тарифів</p>
+                                                <div class="image-placeholder">
+                                                    <i class="fas fa-image"></i>
+                                                    <span>Місце для скріншоту головної сторінки</span>
+                                                    <img src="public/assets/1.png" alt="Головна сторінка - Каталог підписок">
+                                                </div>
+                                            </div>
+
+                                            <div class="screenshot-item">
+                                                <h4>Сторінка підписки</h4>
+                                                <p>Детальна інформація про підписку з вибором тарифного плану</p>
+                                                <div class="image-placeholder">
+                                                    <i class="fas fa-image"></i>
+                                                    <span>Місце для скріншоту сторінки підписки</span>
+                                                    <img src="public/assets/2.png" alt="Сторінка підписки">
+                                                </div>
+                                            </div>
+
+                                            <div class="screenshot-item">
+                                                <h4>Процес оплати</h4>
+                                                <p>Інтерфейс оплати через Monobank з підтримкою різних валют</p>
+                                                <div class="image-placeholder">
+                                                    <i class="fas fa-image"></i>
+                                                    <span>Місце для скріншоту процесу оплати</span>
+                                                    <img src="public/assets/3.png" alt="Процес оплати">
+                                                </div>
+                                            </div>
+
+                                            <div class="screenshot-item">
+                                                <h4>Адміністративна панель</h4>
+                                                <p>Інтерфейс для управління підписками, користувачами та аналітикою</p>
+                                                <div class="image-placeholder">
+                                                    <i class="fas fa-image"></i>
+                                                    <span>Місце для скріншоту адмін панелі</span>
+                                                    <img src="public/assets/4.png" alt="Адміністративна панель">
+                                                </div>
+                                            </div>
+
+                                            <div class="screenshot-item">
+                                                <h4>Мобільна версія</h4>
+                                                <p>Адаптивний дизайн для мобільних пристроїв</p>
+                                                <div class="image-placeholder">
+                                                    <i class="fas fa-image"></i>
+                                                    <span>Місце для скріншоту мобільної версії</span>
+                                                    <img src="public/assets/5.png" alt="Мобільна версія">
+                                                </div>
+                                            </div>
+
+                                            <div class="screenshot-item">
+                                                <h4>Мультимовна підтримка</h4>
+                                                <p>Інтерфейс з підтримкою української, німецької та англійської мов</p>
+                                                <div class="image-placeholder">
+                                                    <i class="fas fa-image"></i>
+                                                    <span>Місце для скріншоту мультимовності</span>
+                                                    <img src="public/assets/6.png" alt="Мультимовна підтримка">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content 5: Frontend -->
+                            <div class="tab-content" id="five-tab-content">
+                                <div class="content-card">
+                                    <div class="card-header">
+                                        <h2 class="section-title">
+                                            <i class="fas fa-palette"></i>
+                                            Frontend розробка
+                                        </h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="frontend-info">
+                                            <h3><i class="fab fa-react"></i> Next.js 15 + React 19</h3>
+                                            <p>Клієнтська частина застосунку розроблена з використанням Next.js 15 та React 19 для створення сучасного, швидкого та SEO-оптимізованого веб-додатку.</p>
+                                            
+                                            <div class="tech-features">
+                                                <h4>Основні особливості:</h4>
+                                                <ul>
+                                                    <li>App Router для сучасної маршрутизації та layout системи</li>
+                                                    <li>Server-Side Rendering (SSR) та Static Site Generation (SSG)</li>
+                                                    <li>TypeScript для типізації та кращої розробки</li>
+                                                    <li>Tailwind CSS для швидкого створення адаптивного дизайну</li>
+                                                    <li>Framer Motion для плавних анімацій та переходів</li>
+                                                    <li>Мультимовна підтримка з динамічним перемиканням</li>
+                                                    <li>Автоматичне визначення геолокації користувача</li>
+                                                    <li>Responsive дизайн для всіх типів пристроїв</li>
+                                                </ul>
+                                            </div>
+
+                                      
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content 6: Backend -->
+                            <div class="tab-content" id="six-tab-content">
+                                <div class="content-card">
+                                    <div class="card-header">
+                                        <h2 class="section-title">
+                                            <i class="fas fa-server"></i>
+                                            Backend розробка
+                                        </h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="backend-info">
+                                            <h3><i class="fab fa-react"></i> Next.js API Routes</h3>
+                                            <p>Серверна частина реалізована через Next.js API Routes, що забезпечує повноцінний full-stack функціонал в одному фреймворку.</p>
+                                            
+                                            <div class="tech-features">
+                                                <h4>Основні компоненти:</h4>
+                                                <ul>
+                                                    <li>API Routes для обробки HTTP запитів</li>
+                                                    <li>NextAuth.js для аутентифікації та авторизації</li>
+                                                    <li>TypeORM для роботи з базою даних</li>
+                                                    <li>Monobank API інтеграція для платежів</li>
+                                                    <li>Webhook обробка для підтвердження платежів</li>
+                                                    <li>Bcrypt для хешування паролів</li>
+                                                    <li>Formidable для завантаження файлів</li>
+                                                    <li>GeoIP для визначення локації користувача</li>
+                                                    <li>Class-validator для валідації даних</li>
+                                                </ul>
+                                            </div>
+
+                                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content 7: Database -->
+                            <div class="tab-content" id="seven-tab-content">
+                                <div class="content-card">
+                                    <div class="card-header">
+                                        <h2 class="section-title">
+                                            <i class="fas fa-database"></i>
+                                            База даних
+                                        </h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="database-info">
+                                            <h3><i class="fas fa-database"></i> SQLite + TypeORM</h3>
+                                            <p>Реляційна база даних SQLite з TypeORM використовується для зберігання всіх даних застосунку з підтримкою типізації та декораторів.</p>
+                                            
+                                            <div class="database-schema">
+                                                <div class="table-description">
+                                                    <h4>Схема бази даних</h4>
+                                                    <div class="image-placeholder">
+                                                        <i class="fas fa-database"></i>
+                                                        <span>bd.jpg</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="table-info">
+                                                    <h4>Таблиця User</h4>
+                                                    <div class="table-grid">
+                                                        <div class="table-header">
+                                                            <span>Поле</span>
+                                                            <span>Тип</span>
+                                                            <span>Опис</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>id</span>
+                                                            <span>UUID</span>
+                                                            <span>Унікальний ідентифікатор</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>name</span>
+                                                            <span>String</span>
+                                                            <span>Ім'я користувача</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>email</span>
+                                                            <span>String</span>
+                                                            <span>Електронна адреса (унікальна)</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>password</span>
+                                                            <span>String</span>
+                                                            <span>Хешований пароль</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>role</span>
+                                                            <span>String</span>
+                                                            <span>Роль користувача (admin/user)</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="table-info">
+                                                    <h4>Таблиця Subscription</h4>
+                                                    <div class="table-grid">
+                                                        <div class="table-header">
+                                                            <span>Поле</span>
+                                                            <span>Тип</span>
+                                                            <span>Опис</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>id</span>
+                                                            <span>UUID</span>
+                                                            <span>Унікальний ідентифікатор</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>title</span>
+                                                            <span>String</span>
+                                                            <span>Назва підписки (EN/DE/UA)</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>imageUrl</span>
+                                                            <span>String</span>
+                                                            <span>URL зображення сервісу</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>benefitsList</span>
+                                                            <span>Array</span>
+                                                            <span>Список переваг (мультимовний)</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>price_per_*</span>
+                                                            <span>Decimal</span>
+                                                            <span>Ціни для різних періодів та регіонів</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>regions</span>
+                                                            <span>Array</span>
+                                                            <span>Доступні регіони</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="table-info">
+                                                    <h4>Таблиця SubscriptionPayment</h4>
+                                                    <div class="table-grid">
+                                                        <div class="table-header">
+                                                            <span>Поле</span>
+                                                            <span>Тип</span>
+                                                            <span>Опис</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>id</span>
+                                                            <span>UUID</span>
+                                                            <span>Унікальний ідентифікатор</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>status</span>
+                                                            <span>String</span>
+                                                            <span>Статус платежу</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>userId</span>
+                                                            <span>String</span>
+                                                            <span>ID користувача</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>subscriptionId</span>
+                                                            <span>String</span>
+                                                            <span>ID підписки</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>startDate/endDate</span>
+                                                            <span>Date</span>
+                                                            <span>Період дії підписки</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>price</span>
+                                                            <span>Decimal</span>
+                                                            <span>Сума платежу</span>
+                                                        </div>
+                                                        <div class="table-row">
+                                                            <span>invoiceId</span>
+                                                            <span>String</span>
+                                                            <span>ID інвойсу Monobank</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tab Content 8: Conclusions -->
+                            <div class="tab-content" id="eight-tab-content">
+                                <div class="content-card">
+                                    <div class="card-header">
+                                        <h2 class="section-title">
+                                            <i class="fas fa-flag-checkered"></i>
+                                            Висновки
+                                        </h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="conclusions">
+                                            <div class="conclusion-item">
+                                                <h3><i class="fas fa-check-circle"></i> Результати проєкту</h3>
+                                                <p>
+                                                    Проєкт FlixMarket було присвячено розробці сучасної веб-платформи для продажу підписок на стрімінгові сервіси. 
+                                                    Його реалізація має важливе практичне значення, оскільки забезпечує зручний доступ до популярних сервісів 
+                                                    з підтримкою різних валют та регіонів.
+                                                </p>
+                                            </div>
+
+                                            <div class="conclusion-item">
+                                                <h3><i class="fas fa-cogs"></i> Технічна реалізація</h3>
+                                                <p>
+                                                    Робота над проєктом охопила всі етапи життєвого циклу ПЗ — від аналізу вимог до впровадження 
+                                                    повноцінного функціоналу. Застосовано Next.js 15 з React 19, TypeORM для роботи з базою даних, 
+                                                    NextAuth.js для аутентифікації та Monobank API для безпечних платежів.
+                                                </p>
+                                            </div>
+
+                                            <div class="conclusion-item">
+                                                <h3><i class="fas fa-credit-card"></i> Платіжна система</h3>
+                                                <p>
+                                                    Інтеграція з Monobank API забезпечує безпечну обробку платежів з підтримкою різних валют (UAH, EUR, USD). 
+                                                    Webhook система гарантує надійне підтвердження платежів, а автоматичне визначення геолокації 
+                                                    забезпечує правильну локалізацію цін.
+                                                </p>
+                                            </div>
+
+                                            <div class="conclusion-item">
+                                                <h3><i class="fas fa-rocket"></i> Підсумок</h3>
+                                                <p>
+                                                    Інтерфейс побудовано за допомогою сучасних технологій з підтримкою мультимовності (EN/DE/UA) та адаптивного дизайну. 
+                                                    Проєкт став прикладом ефективного використання full-stack Next.js для створення безпечної, 
+                                                    масштабованої та зручної e-commerce платформи.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Smooth scrolling and tab functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add smooth transitions to tab content
+            const tabContents = document.querySelectorAll('.tab-content');
+            const tabItems = document.querySelectorAll('.tab-item');
+            
+            // Add click handlers for better UX
+            tabItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    // Add ripple effect
+                    const ripple = document.createElement('span');
+                    ripple.classList.add('ripple');
+                    this.appendChild(ripple);
+                    
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 600);
+                });
+            });
+            
+            // Intersection Observer for animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+            
+            // Observe all content cards
+            document.querySelectorAll('.content-card').forEach(card => {
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+
+</html>
